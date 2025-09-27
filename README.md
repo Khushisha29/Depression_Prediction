@@ -15,14 +15,23 @@ Data Preprocessing: The data is cleaned and prepared for machine learning models
 Model Training: Several classification models are trained and evaluated:
 
   Logistic Regression
-  KNN
-  SVM
+  
+  K-Nearest Neighbors (KNN)
+  
+  Support Vector Machine (SVM)
+  
   Naive Bayes
+  
   Decision Tree
+  
   Random Forest
+  
   XGBoost
+  
   AdaBoost
+  
   Gradient Boosting
+  
   Ensemble Learning
 
 
