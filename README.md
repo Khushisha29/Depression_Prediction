@@ -1,38 +1,47 @@
-# Depression Detection
+# Depression_Prediction
 
-This repository contains a Jupyter Notebook (Depression_Prediction.ipynb) that explores the use of machine learning models to predict depression based on a given dataset. The project includes data preprocessing, exploratory data analysis (EDA), model training, and evaluation.
+This repository contains the dataset of user behavioural data for identifying depression and a Jupyter Notebook that explores the use of machine learning models to predict depression based on a given dataset. The project covers the complete data science workflow, including data preprocessing, exploratory data analysis (EDA), model training, and evaluation.
 
-# Project Overview
+---
 
-The goal of this project is to build and evaluate machine learning models for depression prediction. The notebook follows a standard data science workflow:
+## 📖 Project Overview
 
-Data Loading: The dataset is loaded from a CSV file.
+The objective of this project is to **build and evaluate machine learning models** for predicting depression. The workflow followed in the notebook includes:
 
-Exploratory Data Analysis (EDA): The data is analyzed to understand its structure, distributions, and potential relationships between features. This includes checking for missing values, visualizing feature distributions, and creating a correlation heatmap.
+### 1. Data Loading
 
-Data Preprocessing: The data is cleaned and prepared for machine learning models. This involves handling categorical features, splitting the data into training and testing sets, and scaling numerical features.
+* Dataset loaded from a **CSV file**.
 
-Model Training: Several classification models are trained and evaluated:
+### 2. Exploratory Data Analysis (EDA)
 
-  Logistic Regression
-  
-  K-Nearest Neighbors (KNN)
-  
-  Support Vector Machine (SVM)
-  
-  Naive Bayes
-  
-  Decision Tree
-  
-  Random Forest
-  
-  XGBoost
-  
-  AdaBoost
-  
-  Gradient Boosting
-  
-  Ensemble Learning
+* Understanding dataset structure and distributions.
+* Handling missing values.
+* Visualizing feature distributions.
+* Creating a **correlation heatmap** to explore relationships among features.
 
+### 3. Data Preprocessing
 
-Model Evaluation: The performance of each model is assessed using various metrics such as accuracy, precision, recall, and F1-score. The notebook also generates confusion matrices to visualize the models' performance on the test set.
+* Cleaning and preparing data for model training.
+* Encoding categorical variables.
+* Scaling numerical features for consistency.
+* Splitting data into **training and testing sets**.
+
+### 4. Model Training
+
+Several classification algorithms were trained and compared:
+
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Support Vector Machine (SVM)
+* Naive Bayes
+* Decision Tree
+* Random Forest
+* XGBoost
+* AdaBoost
+* Gradient Boosting
+* Ensemble Learning
+
+### 5. Model Evaluation
+
+* Models assessed using **accuracy, precision, recall, and F1-score**.
+* **Confusion matrices** generated for a clear visualization of classification performance.
